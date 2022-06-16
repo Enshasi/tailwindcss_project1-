@@ -1,0 +1,4 @@
+1-> npm init -y
+2-> npm install tailwindcss
+
+npm run build-css

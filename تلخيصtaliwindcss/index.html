@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="build/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;700&family=Open+Sans:wght@300;400;600&family=Raleway:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<!-- rounded = border-radios font , margin , padding , border , color , flex , justify , items , width , height ,media backgroundColor , grid , button , border-radios -->
+<!-- transition duration-1000 // transform hover:translate-x-10  -->
+
+<body class="text-gray-500 bg-white">
+    <div>
+        <div>
+            <nav>
+                <div>
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100">
+                        <a href="/" class="text-red-500 md:text-green-300 lg:text-blue-700 xl:text-amber-500 hover:text-gray-600">Food Ninja</a
+              >
+            </h1>
+          </div>
+          <ul
+            class="flex items-center justify-center py-20 border-2 border-red-500"
+          >
+            <li class="text-gray-700 font-bold font-sans">
+              <a href="#" class="flex">
+                <span class="px-2">Home</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 mr-10"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                  />
+                </svg>
+              </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex">
+                                <span class="px-2">About</span>
+                                <svg class="w-8 mr-10" xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="{2}"
+                    d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"
+                  />
+                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex">
+                                <span class="px-5">Contact</span>
+                                <svg class="w-8 mr-10" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path
+                    d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4a2 2 0 01-2-2V5z"
+                  />
+                  <path
+                    d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"
+                  />
+                </svg>
+                            </a>
+                        </li>
+                        </ul>
+            </nav>
+            </div>
+            <!-- rounded == border radios -->
+            <main class="px-16 py-6">
+                <div class="flex justify-end">
+                    <a href="#" class="transition ease-in-out duration-1000 transform hover:scale-110 text-red-500 rounded-md mx-10 p-4 uppercase text-xl font-bold cursor-pointer tracking-wider border-2 hover:bg-red-600 hover:text-white">Log in</a
+          >
+          <a
+            href="#"
+            class="transition duration-1000 transform hover:translate-x-10 text-red-500 rounded-md mx-10 p-4 uppercase text-xl font-bold cursor-pointer tracking-wider border-2 hover:bg-red-600 hover:text-white"
+            >Sign up</a
+          >
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="bg-red-500 h-4 w-6"></div>
+          <div class="bg-blue-500 h-6 w-8"></div>
+          <div class="bg-green-500 h-8 w-10"></div>
+        </div>
+
+        <header>
+          <h2 class="text-gray-700 text-6xl font-semibold font-serif">
+            Recipes
+          </h2>
+          <h3 class="text-3xl font-semibold">For Ninjas</h3>
+        </header>
+
+        <div>
+          <h4 class="font-bold mt-10 pd-2 border-b border-gray-300">
+            Latest Recipes
+          </h4>
+
+          <div class="mt-8 grid lg:grid-cols-3 grid-row-3 md:row-2 gap-6">
+            <!-- cards go here -->
+            <div class="relative hover:shadow-lg">
+              <img
+                src="build/img/stew.jpg"
+                alt="stew"
+                class="w-full overflow-hidden shadow"
+              />
+              <div class="absolute">
+                <span class="text-red-400">5 Bean Chili Stew</span>
+                <span class="text-red-400">Recipe by Mario</span>
+              </div>
+            </div>
+
+            <div class="relative hover:shadow-lg">
+              <img
+                src="build/img/stew.jpg"
+                alt="stew"
+                class="w-full overflow-hidden shadow"
+              />
+              <div class="absolute">
+                <span class="text-red-400">5 Bean Chili Stew</span>
+                <span class="text-red-400">Recipe by Mario</span>
+              </div>
+            </div>
+
+            <div class="relative hover:shadow-lg">
+              <img
+                src="build/img/stew.jpg"
+                alt="stew"
+                class="w-full overflow-hidden shadow"
+              />
+              <div class="absolute">
+                <span class="text-red-400">5 Bean Chili Stew</span>
+                <span class="text-red-400">Recipe by Mario</span>
+              </div>
+            </div>
+          </div>
+
+          <h4
+            class="font-bold mt-10 p-2 border-b border-gray-300 font-mono rounded bg-red-500 inline-block text-white"
+          >
+            Most Popular
+          </h4>
+
+          <div class="mt-8">
+            <!-- cards go here -->
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="transition duration-1000 transform hover:translate-x-10 inline-block p-4 text-black hover:bg-red-600 hover:text-white border-4 border-red-600"
+          >
+            Load more
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
